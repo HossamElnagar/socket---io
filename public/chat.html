@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>chat page</title>
+</head>
+<body class="chat-body">
+    <div class="chat-container">
+        <div class="chat-header">
+
+            <button class="logout-btn">خروج</button>
+        </div>
+        <div class="chat-messages">
+            <div class="message me">اهلا يا حسام</div>
+            <div class="message other">اهلا يا محمد</div>
+            <div class="message me">عامل ايه</div>
+            <div class="message other">تمام</div>
+
+        </div>
+
+        <div class="chat-input">
+                <input type="text" placeholder="اكتب رسالة ....">
+                <button class="send-btn">ارسال</button>
+        </div>
+    </div>
+    
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
